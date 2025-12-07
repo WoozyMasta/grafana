@@ -515,6 +515,7 @@ The XYZ Tile layer is a map from a generic tile layer.
 - **Min Zoom** - Minimum zoom level. Tiles will not be loaded below this level.
 - **Max Zoom** - Maximum zoom level provided by the server. Past this level, tiles will be upscaled (digital zoom).
 - **Opacity** from 0 (transparent) to 1 (opaque)
+- **Dashboard variables** - You can use dashboard variables in both the **URL template** and **Attribution** fields. This allows you to dynamically switch map sources or versions. Example: `https://example.com/maps/${version}/{z}/{x}/{y}.png`.
 
 ##### More information
 
